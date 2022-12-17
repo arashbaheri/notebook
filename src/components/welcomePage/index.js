@@ -13,7 +13,7 @@ const WelcomePage = () => {
       <div className='top-circle'></div>
       <div className='welcome-content-container'>
         <div className='d-flex justify-content-center welcome-image-container'>
-          <img src='/images/Checklist.jpg' alt='welcome-icon' width={300} />
+          <img src='/images/Checklist.jpg' alt='welcome-icon' width={400} />
         </div>
         <div className='welcome-page-title'>Get things done.</div>
         <div className='welcome-page-sub-title'>
