@@ -1,9 +1,17 @@
 import './index.css';
 
+import {Route, Routes} from 'react-router-dom'
+
+import routes from './routes';
+
 function App() {
   return (
     <div className="App">
-      <header>This is the first point of project</header>
+     <Routes>
+        {routes.map((route) => (
+          <Route {...route} key={route.path} />
+        ))}
+      </Routes>
     </div>
   );
 }
