@@ -2,9 +2,3 @@ body {
   margin: 0;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
 }
-
-@media (min-width: 450px) {
-  body{
-    display: none !important;
-  }
-}

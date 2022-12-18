@@ -1,8 +1,5 @@
-import DescriptionPage from "./components/descriptionPage";
-import WelcomePage from "./components/welcomePage";
 
 const routes = [
-    { path: '/', element: <WelcomePage /> },
-    { path: '/info', element: <DescriptionPage /> },
+    { path: '/', element: <>hi</> },
   ];
   export default routes;
