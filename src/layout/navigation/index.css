@@ -7,7 +7,7 @@
 }
 .nav-title-container {
   transition: 0.4s;
-  transition-timing-function: ease-in-out;;
+  transition-timing-function: ease-in-out;
 }
 .nav-title-container:hover {
   margin: 0 16px !important;
@@ -15,6 +15,7 @@
 }
 .navigation-item-container .nav-title-container {
   color: #fdfdfd;
+  font-weight: bold;
 }
 .navigation-item-container .nav-icon-container {
   color: #ffcb85;
@@ -25,4 +26,16 @@
   transition: 0.4s;
   transition-timing-function: ease-in;
   font-weight: bold;
+  margin: 0 16px !important;
+  font-size: 17px;
+}
+.selected-nav-ribbon {
+  width: 7px;
+  height: 30px;
+  border-radius: 5px;
+  background-color: #ffcb85;
+  position: absolute;
+  left: 0 !important;
+  transition-timing-function: ease-in;
+  transition: 0.4s;
 }

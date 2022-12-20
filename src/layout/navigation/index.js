@@ -25,6 +25,9 @@ const Navigation = () => {
               className='d-flex mt-5 cursor-pointer'
               onClick={() => selectNavItemHandler(item.id)}
             >
+              {selectTab == item.id && (
+                <div className='selected-nav-ribbon'/>
+              )}
               <div className='nav-icon-container mx-2'>{item.icon}</div>
               <div
                 className={`${
