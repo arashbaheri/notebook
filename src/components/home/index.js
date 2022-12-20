@@ -6,6 +6,7 @@ import Calender from '../calender'
 import Header from '../../layout/header'
 import Navbar from '../../layout/navbar'
 import Notification from '../notification'
+import Tasks from '../tasks'
 
 const HomePage = () => {
   return (
@@ -20,11 +21,9 @@ const HomePage = () => {
           </Col>
           <Col md='3'>...</Col>
         </Row>
-        {/* <div className='d-flex'>
-          <Calender />
-          <Notification /> 
-          
-        </div> */}
+        <Col md='5'>
+          <Tasks />
+        </Col>
       </Header>
     </Navbar>
   )

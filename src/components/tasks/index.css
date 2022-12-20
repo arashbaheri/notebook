@@ -1,0 +1,24 @@
+.task-badge{
+    background-color: #58409e !important;
+}
+.task-title-badge{
+    font-weight: bold;
+    color: #58409e;
+}
+.add-new-task-icons{
+    cursor: pointer !important;
+}
+.task-list-container{
+    background-color: #f3f0fa;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.task-item-time{
+    font-size: 13px;
+    background-color: #e3def0;
+    padding: 5px 10px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    color: #58409e;
+}
