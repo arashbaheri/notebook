@@ -1,0 +1,19 @@
+.landing-page-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #58409e;
+  display: flex;
+  padding: 20px;
+}
+.navbar-container {
+  width: 16vw;
+  height: auto;
+  background-color: #58409e;
+  padding: 20px;
+}
+.content-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #fbfbfd;
+  border-radius: 40px;
+}

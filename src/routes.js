@@ -1,5 +1,4 @@
+import HomePage from './components/home'
 
-const routes = [
-    { path: '/', element: <>hi</> },
-  ];
-  export default routes;
+const routes = [{ path: '/', element : <HomePage />}]
+export default routes
