@@ -1,10 +1,28 @@
-.brand-name{
-    color: #fdfdfd;
-    font-size: 20px;
+.brand-name {
+  color: #fdfdfd;
+  font-size: 20px;
 }
-.navigation-item-container .nav-title-container{
-    color: #ffcb85;
+.cursor-pointer {
+  cursor: pointer;
 }
-.navigation-item-container .nav-icon-container{
-    color: #ffcb85;
+.nav-title-container {
+  transition: 0.4s;
+  transition-timing-function: ease-in-out;;
+}
+.nav-title-container:hover {
+  margin: 0 16px !important;
+  font-size: 17px;
+}
+.navigation-item-container .nav-title-container {
+  color: #fdfdfd;
+}
+.navigation-item-container .nav-icon-container {
+  color: #ffcb85;
+}
+.selected-nav-item {
+  color: #ffcb85;
+  cursor: pointer;
+  transition: 0.4s;
+  transition-timing-function: ease-in;
+  font-weight: bold;
 }

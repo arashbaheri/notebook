@@ -2,8 +2,13 @@ import './index.css'
 
 import { BsHexagonHalf } from 'react-icons/bs'
 import { navigationItems } from './navigationItems'
+import { useState } from 'react'
 
 const Navigation = () => {
+  const [selectTab, setSelectedTab] = useState(1)
+  const selectNavItemHandler = (id) => {
+    setSelectedTab(id)
+  }
   return (
     <>
       <div className='d-flex align-items-center'>
@@ -15,9 +20,21 @@ const Navigation = () => {
       <div className='navigation-item-container'>
         {navigationItems.map((item) => {
           return (
-            <div className='d-flex mt-5'>
+            <div
+              key={item.id}
+              className='d-flex mt-5 cursor-pointer'
+              onClick={() => selectNavItemHandler(item.id)}
+            >
               <div className='nav-icon-container mx-2'>{item.icon}</div>
-              <div className='nav-title-container mx-2'>{item.title}</div>
+              <div
+                className={`${
+                  selectTab == item.id
+                    ? 'selected-nav-item mx-3'
+                    : 'nav-title-container mx-2'
+                }`}
+              >
+                {item.title}
+              </div>
             </div>
           )
         })}
