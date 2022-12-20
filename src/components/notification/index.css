@@ -1,0 +1,44 @@
+.new-notification-message-container {
+  background-color: #58409e;
+  width: 100%;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+}
+.new-note-logo-container {
+  background-color: #7967b1;
+  width: 40px;
+  border-radius: 5px;
+}
+.new-note-title-container {
+  color: #fff;
+  padding: 0 20px;
+}
+.new-note-title-container p:nth-child(2) {
+  color: rgb(182, 181, 181);
+  font-size: 14px;
+  margin-top: -10px;
+}
+.new-note-title-container button {
+  color: #fff;
+  font-weight: bold !important;
+}
+.first-message-circles {
+  width: 80px;
+  height: 70px;
+  position: absolute;
+  right: 0;
+  top: 65px;
+  border: 2px solid #fff;
+  border-radius: 60px 0 15px 0 ;
+}
+.second-message-circles {
+  width: 60px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  top: 85px;
+  border: 2px solid #fff;
+  border-radius: 60px 0 15px 0 ;
+}
+

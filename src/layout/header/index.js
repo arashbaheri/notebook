@@ -6,7 +6,7 @@ import { MdNotificationAdd } from 'react-icons/md'
 const Header = ({ children }) => {
   return (
     <>
-      <div className='d-flex justify-content-between p-2'>
+      <div className='d-flex justify-content-between p-4'>
         <div className='user-welcome-message'>Welcome, New Friend !</div>
         <div className='d-flex px-4'>
           <div>

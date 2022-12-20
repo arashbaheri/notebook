@@ -1,0 +1,7 @@
+.calender-container .Calendar {
+  box-shadow: none !important;
+  background-color: #fdfdfd !important;
+  /* border: 2px solid #7967b1; */
+  border-radius: 30px;
+  width: 100% !important;
+}

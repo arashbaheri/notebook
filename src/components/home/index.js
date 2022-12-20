@@ -1,33 +1,30 @@
-import './index.css'
 import 'react-modern-calendar-datepicker/lib/DatePicker.css'
 
-import React, { useState } from 'react'
+import { Col, Row } from 'reactstrap'
 
-import { Calendar } from 'react-modern-calendar-datepicker'
+import Calender from '../calender'
 import Header from '../../layout/header'
 import Navbar from '../../layout/navbar'
+import Notification from '../notification'
 
 const HomePage = () => {
-  const [selectedDayRange, setSelectedDayRange] = useState({
-    from: {day: 6, month: 12, year: 2022},
-    to: {day: 14, month: 12, year: 2022},
-  })
-  {
-    console.log(selectedDayRange)
-  }
   return (
     <Navbar>
       <Header>
-        <div className='mt-4 mx-2 calender-container'>
-          <Calendar
-            className='calender-style'
-            value={selectedDayRange}
-            onChange={setSelectedDayRange}
-            shouldHighlightWeekends
-            colorPrimary="#7967b1"
-            colorPrimaryLight="#e3def0"
-          />
-        </div>
+        <Row>
+          <Col md='5'>
+            <Calender />
+          </Col>
+          <Col md='4'>
+            <Notification />
+          </Col>
+          <Col md='3'>...</Col>
+        </Row>
+        {/* <div className='d-flex'>
+          <Calender />
+          <Notification /> 
+          
+        </div> */}
       </Header>
     </Navbar>
   )
