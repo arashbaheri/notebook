@@ -1,0 +1,11 @@
+.user-welcome-message {
+  color: #58409e;
+  font-weight: bold;
+  background-color: #cdc9d7;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+.user-email-address {
+  color: #58409e;
+  font-weight: bold;
+}

@@ -1,11 +1,13 @@
 import './index.css'
 
+import Header from '../../layout/header'
 import Navbar from '../../layout/navbar'
 
 const HomePage = () => {
   return (
     <Navbar>
-      <div>Landing Page</div>
+      <Header>
+      </Header>
     </Navbar>
   )
 }
