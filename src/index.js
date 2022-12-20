@@ -1,8 +1,10 @@
 import './index.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'react-modern-calendar-datepicker/lib/DatePicker.css';
 
 import App from './App'
 import {BrowserRouter} from 'react-router-dom'
+import DatePicker from 'react-modern-calendar-datepicker';
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 
