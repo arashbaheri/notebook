@@ -5,6 +5,7 @@ import { Col, Row } from 'reactstrap'
 import Calender from '../calender'
 import Header from '../../layout/header'
 import Messages from '../messages'
+import Music from '../music'
 import Navbar from '../../layout/navbar'
 import Notification from '../notification'
 import Profile from '../profile'
@@ -25,8 +26,9 @@ const HomePage = () => {
             <Messages />
           </Col>
 
-          <Col sm='12' md='6' lg='3'>
+          <Col sm='12' md='6' lg='3' className='px-4'>
             <Profile />
+            <Music />
           </Col>
         </Row>
       </Header>

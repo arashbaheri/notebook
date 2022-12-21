@@ -12,7 +12,7 @@ import { replys } from '../messages/chats'
 const Messages = () => {
   return (
     <>
-      <div className='notification-container mt-5  d-flex align-items-center justify-content-between'>
+      <div className='notification-container mt-5 pb-2 d-flex align-items-center justify-content-between'>
         <h5>Team chat</h5>
         <div>
           <Button className='invite-people-btn'>Invite people</Button>
