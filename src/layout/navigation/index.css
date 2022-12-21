@@ -36,7 +36,7 @@
   transition-timing-function: ease-in;
   transition: 0.4s;
 }
-.pro-account-banner{
+.pro-account-banner {
   background-color: #7967b1;
   height: 300px;
   margin-bottom: 20px;
@@ -46,23 +46,37 @@
   border: 1px solid #e3e0e0;
   margin-left: -20px;
 }
-.pro-account-title{
+.pro-account-title {
   color: #fdfdfd;
   font-weight: bold;
   font-size: 20px;
 }
-.pro-account-circle{
+.pro-account-circle {
   width: 15px;
   height: 15px;
   background-color: #ffcb85;
   border-radius: 50%;
 }
-.pro-account-subtitle{
+.pro-account-subtitle {
   width: 200px;
   font-size: 12px;
   color: #fff;
 }
-.pro-account-button{
-  color: #fdfdfd;
+.pro-account-button {
+  color: #ffcb85;
+  background-color: #7967b1 !important;
   font-weight: bold;
+}
+.pro-account-button:hover {
+  color: #7967b1 !important;
+  background-color: #ffcb85 !important;
+}
+.pro-account-image-container {
+  display: flex;
+  justify-content: center;
+}
+.pro-account-image-container img {
+  width: 100px;
+  margin: 10px auto !important;
+  border-radius: 10px;
 }

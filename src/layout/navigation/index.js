@@ -55,7 +55,7 @@ const Navigation = () => {
           </Button>
         </div>
         <div className='pro-account-image-container'>
-          <img src='/images/pro-banner.png' width={200} />
+          <img src='/images/pro-ban.png' width={200} />
         </div>
       </div>
     </>
