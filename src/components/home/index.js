@@ -7,6 +7,7 @@ import Header from '../../layout/header'
 import Messages from '../messages'
 import Navbar from '../../layout/navbar'
 import Notification from '../notification'
+import Profile from '../profile'
 import Tasks from '../tasks'
 
 const HomePage = () => {
@@ -14,17 +15,19 @@ const HomePage = () => {
     <Navbar>
       <Header>
         <Row>
-          <Col md='5'>
+          <Col sm='12' md='6' lg='5'>
             <Calender />
             <Tasks />
           </Col>
 
-          <Col md='4'>
+          <Col sm='12' md='6' lg='4'>
             <Notification />
             <Messages />
           </Col>
 
-          <Col md='3'>...</Col>
+          <Col sm='12' md='6' lg='3'>
+            <Profile />
+          </Col>
         </Row>
       </Header>
     </Navbar>

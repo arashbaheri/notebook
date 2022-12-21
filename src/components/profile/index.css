@@ -1,0 +1,18 @@
+.image-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+.email-container {
+  color: gray;
+  font-size: 13px;
+  margin: 10px 0 5px;
+}
+.user-info-container {
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+}
+.user-activity-container{
+    margin: 10px 0 5px 0;
+    font-size: 14px;
+}

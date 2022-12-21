@@ -16,4 +16,5 @@
   width: 100%;
   background-color: #fbfbfd;
   border-radius: 40px;
+  overflow-x: auto;
 }

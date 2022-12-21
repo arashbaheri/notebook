@@ -15,7 +15,6 @@ const Header = ({ children }) => {
           <div className='mx-3'>
             <FaRegUserCircle size={26} color='#58409e' />
           </div>
-          <div className='user-email-address'>alien@gmail.com</div>
         </div>
       </div>
       <div>{children}</div>
