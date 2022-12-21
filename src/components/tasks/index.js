@@ -10,8 +10,9 @@ const Tasks = () => {
     <div className='mx-4'>
       <div className='d-flex align-items-center justify-content-between'>
         <div className='d-flex align-items-center'>
-          <Badge className='task-badge'>3</Badge>
-          <span className='mx-2 task-title-badge'>Today Tasks</span>
+          {/* <Badge className='task-badge'>3</Badge> */}
+          <h5 className='pt-4-2'>Today Tasks</h5>
+          {/* <span className='mx-2 task-title-badge'>Today Tasks</span> */}
         </div>
         <div className='px-1 d-flex align-items-center'>
           <BsPlusLg size={18} color='#58409e' className='add-new-task-icons' />

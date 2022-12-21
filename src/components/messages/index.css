@@ -1,0 +1,50 @@
+.invite-people-btn {
+  background-color: #FFC107 !important;
+  font-size: 13px;
+  border: none !important;
+  font-weight: bold !important;
+}
+.invite-people-btn:hover {
+  background-color: #FFC107 !important;
+  border: none !important;
+}
+.chat-box-container{
+    background-color: #58409e;
+    padding: 10px;
+    border-radius: 18px;
+}
+.my-reply-on-message-box {
+  text-align: end;
+  background-color: #dbd4ef !important;
+  border-radius: 5px;
+  margin: 4px 0;
+  padding: 5px 10px;
+  width: 100%;
+  max-width: 250px;
+  margin-left: auto;
+}
+.other-reply-on-message-box {
+  text-align: end;
+  background-color: #f3eec9 !important;
+  border-radius: 5px;
+  margin: 4px 0;
+  padding: 5px 10px;
+  width: fit-content;
+}
+.message-text {
+  font-size: 13px;
+  text-align: start;
+}
+.message-sent-time {
+  font-size: 10px;
+}
+.send-message-container {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.send-message-input {
+  font-size: 13px;
+  margin: 2px 0 0 10px !important;
+}

@@ -4,6 +4,7 @@ import { Col, Row } from 'reactstrap'
 
 import Calender from '../calender'
 import Header from '../../layout/header'
+import Messages from '../messages'
 import Navbar from '../../layout/navbar'
 import Notification from '../notification'
 import Tasks from '../tasks'
@@ -15,15 +16,16 @@ const HomePage = () => {
         <Row>
           <Col md='5'>
             <Calender />
+            <Tasks />
           </Col>
+
           <Col md='4'>
             <Notification />
+            <Messages />
           </Col>
+
           <Col md='3'>...</Col>
         </Row>
-        <Col md='5'>
-          <Tasks />
-        </Col>
       </Header>
     </Navbar>
   )

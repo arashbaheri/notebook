@@ -10,14 +10,14 @@ const Notification = () => {
       <div className='notification-container mt-5  d-flex justify-content-between'>
         <h5>Notification</h5>
         <div>
-          <Badge color='warning' pill className='p-2'>
+          <Badge color='warning' className='p-2'>
             Read all
           </Badge>
         </div>
       </div>
       <div className='d-flex align-items-start new-notification-message-container mt-4'>
         <div className='new-note-logo-container p-2'>
-          <RiEditBoxLine size={20} color="#fff"/>
+          <RiEditBoxLine size={20} color='#fff' />
         </div>
         <div className='new-note-title-container'>
           <p>Emily just sent you a task to assign</p>
@@ -27,6 +27,7 @@ const Notification = () => {
           <div className='second-message-circles'></div>
         </div>
       </div>
+
     </div>
   )
 }
