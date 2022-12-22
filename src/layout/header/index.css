@@ -9,3 +9,21 @@
   color: #58409e;
   font-weight: bold;
 }
+.search-input-container input {
+  border-radius: 0 40px 40px 0 !important;
+
+  color: #58409e !important;
+}
+.search-input-container input::placeholder {
+  color: #58409e !important;
+  font-size: 16px !important;
+  font-weight: bold;
+}
+.search-input-container input:focus {
+  box-shadow: none !important;
+  border: 1px solid gray !important;
+}
+.search-input-container span {
+  border-radius: 40px 0 0 40px !important;
+  background-color: #e3def0;
+}
